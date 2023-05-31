@@ -29,7 +29,8 @@ public partial class Prakt11111Context : DbContext
     {
         modelBuilder.Entity<Order>(entity =>
         {
-            entity.HasNoKey();
+            entity.HasKey(e => e.Id).HasName("order_PK");
+            entity.ToTable("orders");
 
             entity.Property(e => e.ClosingDate).HasColumnType("date");
             entity.Property(e => e.Id).ValueGeneratedOnAdd();
@@ -41,7 +42,8 @@ public partial class Prakt11111Context : DbContext
 
         modelBuilder.Entity<Service>(entity =>
         {
-            entity.HasNoKey();
+            entity.HasKey(e => e.Id).HasName("service_PK");
+            entity.ToTable("services");
 
             entity.Property(e => e.Id).ValueGeneratedOnAdd();
             entity.Property(e => e.Nomination)
@@ -54,7 +56,8 @@ public partial class Prakt11111Context : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasNoKey();
+            entity.HasKey(e => e.Id).HasName("user_PK");
+            entity.ToTable("users");
 
             entity.Property(e => e.Id).ValueGeneratedOnAdd();
             entity.Property(e => e.Login)

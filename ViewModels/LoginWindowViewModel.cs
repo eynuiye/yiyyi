@@ -40,11 +40,11 @@ namespace AvaloniaApplication3.ViewModels
             else
             {
                 Message = string.Empty;
-                MainWindow mainWindow = new MainWindow()
+                ServiceWindow serviceWindow = new ServiceWindow()
                 {
-                    DataContext = new MainWindowViewModel(user)
+                    DataContext = new ServiceWindowViewModel(user)
                 };
-                mainWindow.Show();
+                serviceWindow.Show();
                 Owner.Close();
             }
         }
