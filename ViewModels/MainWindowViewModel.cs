@@ -14,19 +14,13 @@ namespace AvaloniaApplication3.ViewModels
             get => _orders;
             set => this.RaiseAndSetIfChanged(ref _orders, value);
         }
-        private ObservableCollection<Service> _services;
-        public ObservableCollection<Service> Services
-        {
-            get => _services;
-            set => this.RaiseAndSetIfChanged(ref _services, value);
-        }
         private User user { get; set; }
         public MainWindowViewModel() 
         {
             Prakt11111Context dbContext = new Prakt11111Context();
             dbContext.Users.Load();
             dbContext.Orders.Load();
-            dbContext.Services.Load();
+            Orders = dbContext.Orders.Local.ToObservableCollection();
         }
         public MainWindowViewModel(User user) : this()
         {

@@ -12,13 +12,13 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AvaloniaApplication3
-build_property.ProjectDir = C:\Users\student\Desktop\Practic-main\
+build_property.ProjectDir = C:\Users\student\Desktop\order2\
 
-[C:/Users/student/Desktop/Practic-main/App.axaml]
+[C:/Users/student/Desktop/order2/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/student/Desktop/Practic-main/Views/LoginWindow.axaml]
+[C:/Users/student/Desktop/order2/Views/LoginWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/student/Desktop/Practic-main/Views/MainWindow.axaml]
+[C:/Users/student/Desktop/order2/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

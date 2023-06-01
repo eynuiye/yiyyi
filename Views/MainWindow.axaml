@@ -16,15 +16,21 @@
     </Design.DataContext>
 
 	<DockPanel>
+		<StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Center">
+		<TextBlock Text="Текущий пользователь:"></TextBlock>
+		<TextBlock Text="{Binding user.Login}" VerticalAlignment="Bottom"></TextBlock>
+			</StackPanel>
 		<ListBox Items="{Binding Orders}">
 			<ListBox.ItemTemplate>
 				<DataTemplate>
 					<StackPanel>
-						<TextBlock Text="{Binding Name}"></TextBlock>
+						<TextBlock Text="{Binding OrderDate}"></TextBlock>
+						<TextBlock Text="{Binding Status}"></TextBlock>
+						<TextBlock Text="{Binding ClosingDate}"></TextBlock>
 					</StackPanel>
 				</DataTemplate>
 			</ListBox.ItemTemplate>
-			
+
 		</ListBox>
 	</DockPanel>
 

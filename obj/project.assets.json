@@ -5757,11 +5757,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\student\\Desktop\\Practic-main\\AvaloniaApplication3.csproj",
+      "projectUniqueName": "C:\\Users\\student\\Desktop\\order2\\AvaloniaApplication3.csproj",
       "projectName": "AvaloniaApplication3",
-      "projectPath": "C:\\Users\\student\\Desktop\\Practic-main\\AvaloniaApplication3.csproj",
+      "projectPath": "C:\\Users\\student\\Desktop\\order2\\AvaloniaApplication3.csproj",
       "packagesPath": "C:\\Users\\student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\student\\Desktop\\Practic-main\\obj\\",
+      "outputPath": "C:\\Users\\student\\Desktop\\order2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
